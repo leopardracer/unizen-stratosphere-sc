@@ -75,7 +75,7 @@ abstract contract BaseExecutor is OwnableUpgradeable, ReentrancyGuardUpgradeable
 
     /**
      * @notice Collects the integrator fee from a trade and updates the Unizen fee earned
-     * send fee directy to integrator
+     * send fee directly to integrator
      * @param isETHTrade Indicates if the trade involves ETH
      * @param token The token involved in the trade
      * @param feeReceiver Address to receive the fee of Integrator
